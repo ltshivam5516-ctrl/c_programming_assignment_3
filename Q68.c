@@ -18,7 +18,7 @@ int main ()
 	scanf("%d", &price);
 	
 	printf("enter the book name");
-	scanf("%49s", &name);
+	gets(name);
 	
 	display(id,name,price);
 	return 0;
